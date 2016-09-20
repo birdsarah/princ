@@ -1,5 +1,6 @@
 # Install
 
+```sh
 $ conda env create
 $ R
 > devtools::install_github('IRkernel/IRkernel')
@@ -8,3 +9,4 @@ $ R
   CRAN = "http://cran.rstudio.com/",
     tessera = "http://packages.tessera.io"))
 > install.packages("hbgd")
+```
