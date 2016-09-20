@@ -2,9 +2,19 @@ name: princ
 dependencies:
   - python=3.5
   - numpy=1.11.1
+  - pandas=0.18.1
   - ipython=5.1.0
+  - jupyter=2.8.2
   - icu=54.1
   - r=3.3.1
+  - rpy2=2.8.2
+  - r-devtools
+  # For HBGD
+  - r-maps
+  - r-nloptr
+  - r-lme4
+  # For R in Jupyter
+  - r-pbdZMQ
 channels:
   - conda-forge
   - r

@@ -2,7 +2,9 @@
 
 $ conda env create
 $ R
-> install.packages("devtools")
-> install.packages("Rcpp")
-> install.packages("RcppExamples")
-> install.packages("RInside")
+> devtools::install_github('IRkernel/IRkernel')
+> IRkernel::installspec()
+> options(repos = c(
+  CRAN = "http://cran.rstudio.com/",
+    tessera = "http://packages.tessera.io"))
+> install.packages("hbgd")

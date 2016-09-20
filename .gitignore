@@ -1,3 +1,6 @@
+.ipynb_checkpoints
+*.swp
+__pycache__
 # Object files
 *.o
 *.ko
