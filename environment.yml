@@ -4,7 +4,7 @@ dependencies:
   - numpy=1.11.1
   - pandas=0.18.1
   - ipython=5.1.0
-  - jupyter=2.8.2
+  - jupyter
   - icu=54.1
   - r=3.3.1
   - rpy2=2.8.2
@@ -13,6 +13,9 @@ dependencies:
   - r-maps
   - r-nloptr
   - r-lme4
+  - r-hexbin
+  - r-sparsem
+  - r-quantreg
   # For R in Jupyter
   - r-pbdZMQ
 channels:
