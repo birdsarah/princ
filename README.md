@@ -3,6 +3,7 @@
 ```sh
 $ conda env create
 $ R
+> install.packages("feather")
 > devtools::install_github('IRkernel/IRkernel')
 > IRkernel::installspec()
 > options(repos = c(

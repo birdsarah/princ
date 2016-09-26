@@ -18,6 +18,9 @@ dependencies:
   - r-quantreg
   # For R in Jupyter
   - r-pbdZMQ
+  # For passing data
+  - feather-format
+  -
 channels:
   - conda-forge
   - r
